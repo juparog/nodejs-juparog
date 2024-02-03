@@ -1,5 +1,9 @@
 # print-table-ansi
 
+<!-- BADGES:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-) [![Coverage Status](https://coveralls.io/repos/github/juparog/nodejs-libs/badge.svg?branch=main)](https://coveralls.io/github/juparog/nodejs-libs?branch=main)
+<!-- BADGES:END -->
+
 `print-table-ansi` is a simple library that allows you to print beautiful and customizable tables in the console using ANSI escape codes. It is ideal for displaying tabular data in a clear and visually appealing way.
 
 ## Installation
@@ -125,3 +129,32 @@ Explore the full range of features and customization options by referring to the
 This library is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. Feel free to use and modify it according to your needs.
 
 We hope you find `print-table-ansi` helpful for presenting your tabular data in a visually appealing way!
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://medium.com/@juangasca95"><img src="https://avatars.githubusercontent.com/u/58745412?v=4?s=100" width="100px;" alt="Juan Rodriguez"/><br /><sub><b>Juan Rodriguez</b></sub></a><br /><a href="https://github.com/juparog/nodejs-libs/commits?author=juparog" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td align="center" size="13px" colspan="7">
+        <img src="https://raw.githubusercontent.com/all-contributors/all-contributors-cli/1b8533af435da9854653492b1327a23a4dbd0a10/assets/logo-small.svg">
+          <a href="https://all-contributors.js.org/docs/en/bot/usage">Add your contributions</a>
+        </img>
+      </td>
+    </tr>
+  </tfoot>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
