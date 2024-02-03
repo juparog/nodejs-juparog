@@ -7,17 +7,15 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 20
-          cache: "npm"
       - uses: nrwl/nx-set-shas@v3
       - name: Install deps
         run: npm ci
-      - name: Lint
-        run: npx nx run-many -t lint
-      - name: Test
-        run: npx nx run-many -t test --configuration=ci
+      - name: Lint affected
+        run: npm run lint
+      - name: Test and coverage affected
+        run: npm run test:coverage
+      - name: Report coverage
+        uses: coverallsapp/github-action@v2
       - name: Release
         run: npx semantic-release
         env:
