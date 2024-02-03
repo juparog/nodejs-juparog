@@ -26,7 +26,6 @@ jobs:
         run: npx nx affected -t test --configuration=ci --coverageReporters=lcov
       - name: Report coverage
         uses: coverallsapp/github-action@v2
-        with:
-          debug: true
+        continue-on-error: true
       - name: Build affected
         run: npx nx affected -t build

@@ -20,6 +20,7 @@ jobs:
         run: npx nx affected -t test --configuration=ci --coverageReporters=lcov
       - name: Report coverage
         uses: coverallsapp/github-action@v2
+        continue-on-error: true
       - name: Release
         run: npx semantic-release
         env:
