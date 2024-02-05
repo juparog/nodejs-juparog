@@ -1,23 +1,23 @@
-# print-table-ansi
+# print-table
 
 <!-- BADGES:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-) [![Coverage Status](https://coveralls.io/repos/github/juparog/nodejs-libs/badge.svg?branch=main)](https://coveralls.io/github/juparog/nodejs-libs?branch=main)
 <!-- BADGES:END -->
 
-`print-table-ansi` is a simple library that allows you to print beautiful and customizable tables in the console using ANSI escape codes. It is ideal for displaying tabular data in a clear and visually appealing way.
+`print-table` is a simple library that allows you to print beautiful and customizable tables in the console using ANSI escape codes. It is ideal for displaying tabular data in a clear and visually appealing way.
 
 ## Installation
 
 ```bash
-npm install @juparog/print-table-ansi
+npm install @juparog/print-table
 ```
 
 ## Usage
 
-Here is an example of how to use `print-table-ansi`:
+Here is an example of how to use `print-table`:
 
 ```typescript
-import { AlignmentText, BgColor, ConsoleTable, ROUNDED_BOX_THEME, TableOptions } from '@juparog/print-table-ansi';
+import { AlignmentText, BgColor, ConsoleTable, ROUNDED_BOX_THEME, TableOptions } from '@juparog/print-table';
 
 // Define your table options
 const tableOptions: TableOptions = {
@@ -128,7 +128,7 @@ Explore the full range of features and customization options by referring to the
 
 This library is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. Feel free to use and modify it according to your needs.
 
-We hope you find `print-table-ansi` helpful for presenting your tabular data in a visually appealing way!
+We hope you find `print-table` helpful for presenting your tabular data in a visually appealing way!
 
 ## Contributors ✨
 
