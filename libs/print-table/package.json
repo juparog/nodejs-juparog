@@ -1,6 +1,7 @@
 {
   "name": "@juparog/print-table",
   "version": "0.0.1",
+  "homepage": "https://github.com/juparog/nodejs-libs/blob/feature/fix-docs/libs/print-table/README.md",
   "dependencies": {
     "tslib": "^2.3.0"
   },
@@ -9,5 +10,17 @@
   "typings": "./src/index.d.ts",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juparog/nodejs-libs.git",
+    "directory": "libs/print-table"
+  },
+  "keywords": [
+    "print-table",
+    "print",
+    "table",
+    "ansi",
+    "console"
+  ]
 }
