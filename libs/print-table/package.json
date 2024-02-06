@@ -21,6 +21,7 @@
     "print",
     "table",
     "ansi",
-    "console"
+    "console",
+    "logs"
   ]
 }
